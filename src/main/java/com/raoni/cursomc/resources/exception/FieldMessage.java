@@ -6,15 +6,15 @@ public class FieldMessage implements Serializable{
 	private static final long serialVersionUID = 1L;
 
 	private String fieldName;
-	private String massage;
+	private String message;
 	
 	public FieldMessage() {
 	}
 
-	public FieldMessage(String fieldName, String massage) {
+	public FieldMessage(String fieldName, String message) {
 		super();
 		this.fieldName = fieldName;
-		this.massage = massage;
+		this.message = message;
 	}
 
 	public String getFieldName() {
@@ -25,12 +25,12 @@ public class FieldMessage implements Serializable{
 		this.fieldName = fieldName;
 	}
 
-	public String getMassage() {
-		return massage;
+	public String getMessage() {
+		return message;
 	}
 
-	public void setMassage(String massage) {
-		this.massage = massage;
+	public void setMessage(String message) {
+		this.message = message;
 	}
 	
 	
