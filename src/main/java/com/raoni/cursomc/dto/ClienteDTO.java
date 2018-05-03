@@ -7,9 +7,9 @@ import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 
 import com.raoni.cursomc.domain.Cliente;
-import com.raoni.cursomc.services.validation.ClienteInsert;
+import com.raoni.cursomc.services.validation.ClienteUpdate;
 
-@ClienteInsert
+@ClienteUpdate
 public class ClienteDTO implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
